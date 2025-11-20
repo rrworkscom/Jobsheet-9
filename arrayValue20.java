@@ -6,7 +6,7 @@ public class arrayValue20 {
 
         int[] finalScore = new int[10];
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < finalScore.length; i++) {
             System.out.print("Enter the final score " + i + ": ");
             finalScore[i] = sc.nextInt();
         }
